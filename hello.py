@@ -5,9 +5,7 @@ import random
 def mathRand():
     randomNumb = random.randint(0, 50)
     print(randomNumb)
-
     count = 0
-
     while (count != 5):
         inputOfUser = input("Enter Your Guessed Number : ")
         type_conv = int(inputOfUser)
